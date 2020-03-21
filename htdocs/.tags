@@ -1,0 +1,108 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+access	lib.php	/^function access ($bool, $msg, $url  = false) {$/;"	f	line:20
+alert	lib.php	/^function alert ($msg) {$/;"	f	line:6
+check	write_ok.php	/^    $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);$/;"	v	line:30
+connect	search_result.php	/^    $connect = mysqli_connect("127.0.0.1", "root", "ruby0421", "userresgisteration");$/;"	v	line:43
+db	board.php	/^  $db = new PDO("mysql:host=127.0.0.1;dbname=userregisteration;charset=utf8","root","ruby0421");$/;"	v	line:5
+db	card.php	/^  $db = new PDO("mysql:host=127.0.0.1;dbname=userregisteration;charset=utf8","root","ruby0421");$/;"	v	line:3
+db	db.php	/^	$db = new PDO("mysql:host=127.0.0.1;dbname=userregisteration;charset=utf8", "root", "ruby0421");$/;"	v	line:5
+db	db.php	/^	$db = null;$/;"	v	line:11
+db	delete.php	/^  $db = new PDO("mysql:host=127.0.0.1;dbname=web;charset=utf8","root","ruby0421");$/;"	v	line:3
+db	lib.php	/^	$db = new PDO("mysql:host=127.0.0.1;dbname=userregisteration;charset=utf8", "root", "ruby0421");$/;"	v	line:42
+db	lib.php	/^	$db = null;$/;"	v	line:57
+db	login_profilecard.php	/^  $db = new PDO("mysql:host=127.0.0.1;dbname=userregisteration;charset=utf8","root","ruby0421");$/;"	v	line:5
+db	update.php	/^  $db = new PDO("mysql:host=127.0.0.1;dbname=userregisteration;charset=utf8","root","ruby0421");$/;"	v	line:8
+db	update_ok.php	/^  $db = new PDO("mysql:host=127.0.0.1;dbname=userregisteration;charset=utf8","root","ruby0421");$/;"	v	line:3
+db	view-profilecard.php	/^  $db = new PDO("mysql:host=127.0.0.1;dbname=userregisteration;charset=utf8","root","ruby0421");$/;"	v	line:2
+db	view.php	/^  $db = new PDO("mysql:host=127.0.0.1;dbname=userregisteration;charset=utf8","root","ruby0421");$/;"	v	line:9
+db	write_ok.php	/^  $db = new PDO("mysql:host=127.0.0.1;dbname=userregisteration;charset=utf8","root","ruby0421");$/;"	v	line:3
+dbs	view.php	/^  $dbs = new PDO("mysql:host=127.0.0.1;dbname=userlogin;charset=utf8","root","ruby0421");$/;"	v	line:29
+fetch	db.php	/^function fetch ($sql) {$/;"	f	line:17
+fetch	lib.php	/^function fetch ($sql) {$/;"	f	line:64
+fetchAll	db.php	/^function fetchAll ($sql) {$/;"	f	line:21
+fetchAll	lib.php	/^function fetchAll ($sql) {$/;"	f	line:69
+filename	newprofile_ok.php	/^$filename = iconv("UTF-8", "EUC-KR",$_FILES['b_file']['name']);$/;"	v	line:9
+filesize	newprofile_ok.php	/^$filesize = filesize($image) ;$/;"	v	line:17
+filter_Result	search_result.php	/^    $filter_Result = mysqli_query($connect, $query);$/;"	v	line:44
+folder	newprofile_ok.php	/^$folder = "..\/..\/upload\/".$filename;$/;"	v	line:10
+folder	write_ok.php	/^  $folder = '.\/uploads\/';$/;"	v	line:6
+height	newprofile_ok.php	/^$height = $size[1];$/;"	v	line:15
+idx	board.php	/^  $idx = $_GET['idx'] ?? NULL;$/;"	v	line:9
+idx	card.php	/^  $idx = $_GET['idx'] ?? NULL;$/;"	v	line:7
+idx	profile_board.php	/^  $idx = $_GET['idx'];$/;"	v	line:7
+idx	update.php	/^  $idx = $_GET['idx'];$/;"	v	line:9
+idx	view.php	/^  $idx = $_GET['idx'];$/;"	v	line:10
+imageFileType	write_ok.php	/^$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));$/;"	v	line:27
+imageblob	newprofile_ok.php	/^$imageblob = addslashes(fread(fopen($image, "r"), filesize($image)));$/;"	v	line:16
+isMember	lib.php	/^function isMember () {$/;"	f	line:79
+member	lib.php	/^$member = $_SESSION['member'] ?? NULL;/;"	v	line:84
+move	lib.php	/^function move ($url = false) {$/;"	f	line:11
+name	view.php	/^  $name = $_GET['name'];$/;"	v	line:30
+num	registeration.origin.php	/^$num = rowCount("select * from usertable where name = '{$name}'");$/;"	v	line:13
+num	registeration.php	/^$num = rowCount("select * from usertable where email = '{$email}'");$/;"	v	line:6
+o_name	newprofile_ok.php	/^$o_name = $_FILES['b_file']['name'];$/;"	v	line:8
+o_name	write_ok.php	/^  $o_name = $_FILES['image']['name'];$/;"	v	line:5
+page	board.php	/^  $page = $_GET['page'] ?? 'list';$/;"	v	line:8
+page	card.php	/^  $page = $_GET['page'] ?? 'profilecard';$/;"	v	line:6
+page	profile_board.php	/^  $page = $_GET['page'] ?? 'list_profile';$/;"	v	line:6
+print_pre	lib.php	/^function print_pre ($el) {$/;"	f	line:28
+println	lib.php	/^function println ($el) {$/;"	f	line:35
+pwUpdate	login-fix_ok.php	/^$pwUpdate = strlen($password) > 0 ? " password = md5('{$password}{$name}'), " : '';$/;"	v	line:4
+query	db.php	/^function query ($sql) {$/;"	f	line:3
+query	lib.php	/^function query ($sql) {$/;"	f	line:40
+query	search_result.php	/^    $query = "SELECT * FROM board WHERE CONCAT(`idx`, `subject`, `writer`, `reg_date`) LIKE '%".$valueToSearch."%'";$/;"	v	line:31
+query	search_result.php	/^    $query = "SELECT * FROM board";$/;"	v	line:36
+rep_count	search_result.php	/^            $rep_count = mysqli_num_rows($sql3);$/;"	v	line:17
+res	db.php	/^	$res = $db->query($sql);$/;"	v	line:8
+res	lib.php	/^	$res = $db->query($sql);$/;"	v	line:45
+result	view-profilecard.php	/^$result = mysql_query("SELECT id, name FROM usertable");$/;"	v	line:4
+ro	view.php	/^  $ro = $dbs->query($sqls)->fetch(PDO::FETCH_OBJ);$/;"	v	line:32
+row	profile_board.php	/^  $row = fetch($sql);$/;"	v	line:9
+row	update.php	/^  $row = $db->query($sql)->fetch(PDO::FETCH_OBJ);$/;"	v	line:11
+row	view.php	/^  $row = $db->query($sql)->fetch(PDO::FETCH_OBJ);$/;"	v	line:12
+rowCount	db.php	/^function rowCount ($sql) {$/;"	f	line:25
+rowCount	lib.php	/^function rowCount ($sql) {$/;"	f	line:74
+rows	list.php	/^	$rows = $db->query("SELECT * FROM board WHERE CONCAT(`subject') LIKE '%".$valueToSearch."%'")->fetchAll(PDO::FETCH_OBJ);$/;"	v	line:14
+rows	list.php	/^    $rows = $db->query("SELECT * FROM board")->fetchAll(PDO::FETCH_OBJ);$/;"	v	line:18
+rows	list_profile.php	/^  $rows = fetchAll($sql);$/;"	v	line:12
+rows	login_profilecard.php	/^  $rows = $db->query("SELECT * FROM usertable")->fetchAll(PDO::FETCH_OBJ);$/;"	v	line:6
+rows	profilecard.php	/^	  $rows = fetchAll("SELECT * FROM usertable");$/;"	v	line:13
+search_result	search_result.php	/^    $search_result = filterTable($query);$/;"	v	line:32
+search_result	search_result.php	/^    $search_result = filterTable($query);$/;"	v	line:37
+size	newprofile_ok.php	/^$size = GetImageSize($image);$/;"	v	line:13
+sql	delete.php	/^  $sql = "DELETE FROM board WHERE idx = '{$_GET['idx']}';";$/;"	v	line:6
+sql	list_profile.php	/^  $sql = "$/;"	v	line:6
+sql	login-fix_ok.php	/^$sql = "$/;"	v	line:5
+sql	newprofile_ok.php	/^$sql = "$/;"	v	line:21
+sql	profile_board.php	/^  $sql = "SELECT * FROM board WHERE idx = '{$idx}'";$/;"	v	line:8
+sql	registeration.php	/^$sql = "$/;"	v	line:9
+sql	update.php	/^  $sql = "SELECT * FROM board WHERE idx = '{$idx}'";$/;"	v	line:10
+sql	update_ok.php	/^  $sql = "$/;"	v	line:6
+sql	validation.php	/^$sql = "select * from usertable where name = '{$name}' and password = md5('{$password}{$name}')";$/;"	v	line:15
+sql	view.php	/^  $sql = "SELECT * FROM board WHERE idx = '{$idx}'";$/;"	v	line:11
+sql	write_ok.php	/^  $sql = "$/;"	v	line:11
+sql2	search_result.php	/^          $sql2 = mq("select * from board where $catagory like '%$search_con%' order by idx desc");$/;"	v	line:8
+sql3	search_result.php	/^            $sql3 = mq("select * from reply where con_num='".$board['idx']."'");$/;"	v	line:16
+sqls	view.php	/^  $sqls = "SELECT * FROM usertable WHERE name = '{$name}'";$/;"	v	line:31
+target_dir	write_ok.php	/^$target_dir = "..\/uploads\/";$/;"	v	line:24
+target_file	write_ok.php	/^$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);$/;"	v	line:25
+title	search_result.php	/^                $title=str_replace($board["title"],mb_substr($board["title"],0,30,"utf-8")."...",$board["title"]);$/;"	v	line:14
+title	search_result.php	/^          $title=$board["title"]; $/;"	v	line:11
+titles	board.php	/^  $titles = [$/;"	v	line:12
+titles	card.php	/^  $titles = [$/;"	v	line:10
+titles	profile_board.php	/^  $titles = [$/;"	v	line:11
+uploadOk	write_ok.php	/^        $uploadOk = 0;$/;"	v	line:36
+uploadOk	write_ok.php	/^        $uploadOk = 1;$/;"	v	line:33
+uploadOk	write_ok.php	/^    $uploadOk = 0;$/;"	v	line:42
+uploadOk	write_ok.php	/^    $uploadOk = 0;$/;"	v	line:47
+uploadOk	write_ok.php	/^    $uploadOk = 0;$/;"	v	line:53
+uploadOk	write_ok.php	/^$uploadOk = 1;$/;"	v	line:26
+uploadfolder	write_ok.php	/^  $uploadfolder = $folder . basename($_FILES['image']['name']);$/;"	v	line:7
+valueToSearch	list.php	/^    $valueToSearch = $_POST['valueToSearch'];$/;"	v	line:11
+valueToSearch	search_result.php	/^    $valueToSearch = $_POST['valueToSearch'];$/;"	v	line:28
+width	newprofile_ok.php	/^$width = $size[0];$/;"	v	line:14
